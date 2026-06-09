@@ -1,0 +1,58 @@
+{
+  "name": "vibe-dependency-guard",
+  "version": "0.1.0",
+  "description": "AI Dependency Governance Platform — Prevent dependency sprawl, duplicate functionality, security risks, and unnecessary package installations in AI-assisted software projects",
+  "keywords": [
+    "dependency",
+    "governance",
+    "security",
+    "supply-chain",
+    "package-management",
+    "dependency-checker",
+    "npm",
+    "pip",
+    "cargo",
+    "go",
+    "ai",
+    "code-generation",
+    "supply-chain-security",
+    "cve",
+    "risk-scoring",
+    "policy-enforcement"
+  ],
+  "license": "MIT",
+  "author": "claude",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dungnotnull/vibe-dependency-guard-agent"
+  },
+  "homepage": "https://github.com/dungnotnull/vibe-dependency-guard-agent#readme",
+  "bugs": {
+    "url": "https://github.com/dungnotnull/vibe-dependency-guard-agent/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "vibe-guard": "dist/cli/main.js"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "CLAUDE.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "ts-node src/cli/main.ts",
+    "start": "node dist/cli/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2"
+  }
+}

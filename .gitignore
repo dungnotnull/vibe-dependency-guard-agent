@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+coverage/
+.nyc_output/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.commandcode/
